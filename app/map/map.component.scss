@@ -1,0 +1,115 @@
+/* adds a color to the map
+   Sets a smooth transition for the fill color for the map
+   Sets width and height for the map
+ */
+#world-map path {
+  fill: #8EE4AF;
+  transition: fill 0.3s;
+  width: 100%;
+  height: 100%;
+}
+/* Highlights the map when hovered over */
+#world-map path:hover {
+  fill: #05386B;
+}
+/*
+Adds padding to country info for styling
+Adds margin to country info for styling
+Flex is used to make the column
+ */
+#country-info {
+  padding: 10px;
+  margin-top: 10px;
+  flex: 0.5;
+  margin-right: 50px;
+}
+/*
+sets the display to flex so I can use columns
+flex-direction is set to row so both the map info and the map are beside each other
+sets background color
+ */
+#content {
+  display: flex;
+  flex-direction: row;
+  background-color: #EDF5E1;
+}
+/*
+padding for style
+text align for style
+box shadow for style and depth
+background color for style
+color for style
+font family for style
+ */
+#title{
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #5CDB95;
+  color: #05386B;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*
+sets width of map
+sets height of map
+added flex 3 to take up most of the right side
+ */
+#map {
+  width: 100%;
+  height: 100%;
+  flex: 3;
+}
+/*
+added flex 1 to take up a small portion of the left side
+background color for style
+padding for style
+border-radius for style and make the box rounded
+box shadow for style and depth
+margin for style
+ */
+#info-box{
+  flex: 1;
+  background-color: #5CDB95;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px #379683;
+  margin-top: 175px;
+}
+/*
+sets the svg tag 120 view height for the size of the svg tag
+ */
+svg {
+  width: 120vh;
+  height: 100vh;
+}
+/*
+added background color to body tag
+ */
+body{
+  background-color: #EDF5E1;
+}
+/*
+Changed the tag for color and style with page
+ */
+b{
+  color: #05386B;
+}
+/*
+Changed the tag for color and style with page
+ */
+span{
+  color: #05386B;
+}
+/*
+Changed the tag for color and style with page
+ */
+h2{
+  color: #05386B;
+}
+/*
+Changed the tag for color and style with page
+ */
+html{
+  background-color: #5CDB95;
+}
+
